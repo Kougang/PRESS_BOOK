@@ -1,0 +1,24 @@
+{
+  "name": "pres",
+  "version": "1.0.0",
+  "description": "site de eugenie",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css --style expanded",
+    "prefix": "postcss ./public/css/style.css --use autoprefixer -d ./public/css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kougang/PRESS_BOOK.git"
+  },
+  "author": "Fabrice SOPJIO",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "bugs": {
+    "url": "https://github.com/Kougang/PRESS_BOOK/issues"
+  },
+  "homepage": "https://github.com/Kougang/PRESS_BOOK#readme",
+  "dependencies": {
+    "sass": "^1.58.3"
+  }
+}

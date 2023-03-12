@@ -1,0 +1,289 @@
+
+   @font-face {
+    font-family: 'Raleway';
+    src: url('../static/Raleway-Light.ttf')  format('truetype'),
+    url('..static/Raleway-SemiBold.ttf')  format('truetype') ;
+   
+}
+
+
+// // ---------------------------------------
+// // --CHARGEMENT DU STYLE ORDINATEUR--
+// // ---------------------------------------
+html{
+    all: unset;
+    margin-top: -8px;
+    background-color: $gris;
+  
+
+    width:auto;
+    #header--main{
+        // border-color: 5px solid black;
+        // background-color: blue;
+        margin-left: 2%;
+        margin-right:2%;
+    }
+    header{
+        margin-left: -35px;
+        margin-right: -35px;
+        // border: 2px solid greenyellow;
+
+        // decalage de tous les blocs de cette ensemble  de 40 px vers la droite
+    // padding-left: 7.5%;
+    // padding-right: 7.5%;
+    // justify-content: space-evenly;
+    }
+}
+
+footer{
+    margin-left: -35px;
+    margin-right: -35px;
+    margin-bottom: -10px; 
+    // margin-left: -8px;
+    // margin-right: -8px;
+    // border-right: 3px solid green;
+}
+
+ 
+@media screen and (min-width: 500px)
+    {
+        main
+        {
+            margin-top: 40px;
+            font-family: raleway;
+
+            font-size: 20px;
+
+            h1
+            {
+                text-align: center;
+                text-decoration: underline;
+                font-size: 25px;
+            }
+            .premierBlock
+            {
+            //    .img-div
+            //    {
+            //     display: flex;
+            //    }
+
+            .image
+            {
+                float: left;
+                & img
+                {
+                    width: 150px;
+                    border: 2px solid white;
+                    border-radius: 10px 10px 10px 10px;
+
+                }
+            }
+                &--div
+                {
+                    &--div1
+                    {
+                            &--ul1
+                            {
+
+                            }
+                            &--p
+                            {
+
+                            }
+                            &--ul2
+                            {
+
+                            }
+                            &--p2
+                            {
+
+                            }
+
+                    }
+
+                    & h2 
+                     {
+                        text-align: center;
+                        text-decoration: underline;
+                        font-size: 25px;
+                    }
+
+                    
+
+
+                }
+
+                
+                
+            }
+
+
+            .deuxiemeBlock
+            {
+                
+                &--div
+                {
+                    & h2 
+                    {
+                       text-align: center;
+                       text-decoration: underline;
+                       font-size: 25px;
+                   }
+
+                    &--p1
+                    {
+
+                    }
+                    &--p2
+                    {
+
+                    }
+                    &--ul
+                    {
+
+                    }
+                    &--p3
+                    {
+
+                    }
+                    &--p4
+                    {
+
+                    }
+                }
+            }
+            .troisiemeBlock
+            { 
+                #lien
+                {all:unset; 
+                    border: 2px solid $bleue-claire;
+                    padding: 3px;
+                    border-radius: 10px 10px 10px 10px;
+                    &:hover{
+                        background-color: $bleue-claire;
+                        border:  2px solid $blue ;
+
+                        border-radius: 15px 15px 15px 15px;
+                    }
+                }
+                
+                &--div
+                {
+                    display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+
+                    &--figure
+                {
+                    all: unset;
+                    padding: 10px;
+                   & a
+                   {
+                    all: unset;
+                    & img
+                    {
+                        width: 230px;
+                        @include last-section-radius-shadow_tab;
+                        @include agrandissement_generale;
+                    }
+                   }
+                   
+                        &--caption1
+                        {
+
+                        }
+                    
+                   
+                        &--caption2
+                        {
+
+                        }
+                    
+
+                }
+               
+                }
+                
+               
+            }
+            .quatriemeBlock
+            {
+                display: flex;
+                flex-direction: column;
+
+                &--tableau
+                {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+               
+                &--tableau1
+                {
+                    border: 3px solid $black;
+                    border-collapse:separate;
+                    width: 800px;
+                    height: 240px;
+
+                   margin-bottom: 40px;
+
+                    justify-content: center;
+                    & td 
+                    {
+                        border: 2px solid $black;
+                        border-collapse:separate;
+                        text-align: center;
+                    }
+                    & caption
+                    {
+                        font-weight: $font-weight1;
+                    }
+                }
+
+                &--tableau2
+                {
+                    border: 3px solid $black;
+                    border-collapse:separate;
+                    width: 800px;
+                    height: 700px;
+                    & caption
+                    {
+                        font-weight: $font-weight1;
+                    }
+                    & td 
+                    {
+                        border: 2px solid $black;
+                        border-collapse:separate;
+                        text-align: center;
+                    }
+                }
+                //
+            }
+
+        }
+    }  
+    
+    
+    
+
+    
+    
+ @media screen and (max-width: 992px)
+    {
+      
+        
+    }
+    
+    
+    // // ---------------------------------------
+    // // --CHARGEMENT DU STYLE MOBILE--
+    // // ---------------------------------------
+    
+@media screen and (max-width :777px) 
+    {
+        //
+    
+    
+    }
+    

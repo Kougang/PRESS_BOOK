@@ -1,0 +1,254 @@
+@media screen and (min-width: 500px) {
+  @font-face {
+    font-family: "Raleway";
+    src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
+  }
+  .header {
+    font-family: raleway;
+  }
+  .header--titre {
+    background-color: rgb(13, 13, 111);
+    color: rgb(158, 63, 107);
+    height: 75px;
+    border: 1px solid rgb(13, 13, 111);
+  }
+  .header--titre p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .header--logo_nav {
+    display: flex;
+    background-color: rgb(158, 63, 107);
+    flex-direction: row;
+    justify-items: auto;
+    justify-content: space-between;
+    border: 1px solid rgb(158, 63, 107);
+    cursor: pointer;
+  }
+  .header--logo_nav--logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  .header--logo_nav--nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    list-style: none;
+    font-weight: bolder;
+    color: #DEEBFF;
+  }
+  .header--logo_nav--nav ul li {
+    cursor: pointer;
+    background-color: black;
+  }
+  .header--logo_nav--nav ul li a {
+    all: unset;
+    justify-content: space-around;
+  }
+  .header--logo_nav--nav ul #list1 {
+    margin-right: 30px;
+    border: 2px solid #0065FC;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .header--logo_nav--nav ul #list1:hover {
+    border: 2px solid rgb(13, 13, 111);
+    background-color: #0065FC;
+  }
+  .header--logo_nav--nav ul #list2 {
+    border: 2px solid #0065FC;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .header--logo_nav--nav ul #list2:hover {
+    border: 2px solid rgb(13, 13, 111);
+    background-color: #0065FC;
+  }
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
+}
+html {
+  all: unset;
+  margin-top: -8px;
+  background-color: #F2F2F2;
+  width: auto;
+}
+html #header--main {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+html header {
+  margin-left: -35px;
+  margin-right: -35px;
+}
+
+footer {
+  margin-left: -35px;
+  margin-right: -35px;
+  margin-bottom: -10px;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    margin-top: 40px;
+    font-family: raleway;
+    font-size: 20px;
+  }
+  main h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  main .premierBlock .image {
+    float: left;
+  }
+  main .premierBlock .image img {
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
+  }
+  main .premierBlock--div h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  main .deuxiemeBlock--div h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+  main .troisiemeBlock #lien {
+    all: unset;
+    border: 2px solid #0065FC;
+    padding: 3px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  main .troisiemeBlock #lien:hover {
+    background-color: #0065FC;
+    border: 2px solid rgb(13, 13, 111);
+    border-radius: 15px 15px 15px 15px;
+  }
+  main .troisiemeBlock--div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  main .troisiemeBlock--div--figure {
+    all: unset;
+    padding: 10px;
+  }
+  main .troisiemeBlock--div--figure a {
+    all: unset;
+  }
+  main .troisiemeBlock--div--figure a img {
+    width: 230px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #0065FC;
+  }
+  main .troisiemeBlock--div--figure a img:hover {
+    background-color: #0065FC;
+    animation: agrand 300ms ease-out;
+  }
+  @keyframes agrand {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+  main .quatriemeBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  main .quatriemeBlock--tableau {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main .quatriemeBlock--tableau1 {
+    border: 3px solid black;
+    border-collapse: separate;
+    width: 800px;
+    height: 240px;
+    margin-bottom: 40px;
+    justify-content: center;
+  }
+  main .quatriemeBlock--tableau1 td {
+    border: 2px solid black;
+    border-collapse: separate;
+    text-align: center;
+  }
+  main .quatriemeBlock--tableau1 caption {
+    font-weight: bold;
+  }
+  main .quatriemeBlock--tableau2 {
+    border: 3px solid black;
+    border-collapse: separate;
+    width: 800px;
+    height: 700px;
+  }
+  main .quatriemeBlock--tableau2 caption {
+    font-weight: bold;
+  }
+  main .quatriemeBlock--tableau2 td {
+    border: 2px solid black;
+    border-collapse: separate;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 500px) {
+  footer {
+    margin-top: 30px;
+    background-color: rgb(13, 13, 111);
+    color: #DEEBFF;
+    padding-top: 20px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: stretch;
+    font-family: raleway;
+  }
+  .footer a {
+    all: unset;
+  }
+  .footer .firstfooter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    cursor: pointer;
+  }
+  .footer .secondfooter {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .footer .thirdfooter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+  .eugenie {
+    text-align: right;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+  .copyRigth {
+    text-align: center;
+    padding-bottom: 20px;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

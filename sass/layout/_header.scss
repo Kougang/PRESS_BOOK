@@ -1,0 +1,159 @@
+
+// // ---------------------------------------
+// // --CHARGEMENT DU STYLE ORDINATEUR--
+// // ---------------------------------------
+
+
+ 
+@media screen and (min-width: 500px)
+    {
+
+        @font-face {
+            font-family: 'Raleway';
+            src: url('../static/Raleway-Light.ttf')  format('truetype'),
+            url('..static/Raleway-SemiBold.ttf')  format('truetype') ;
+           
+        }
+
+     .header{
+        font-family: raleway;
+        &--titre
+        {
+            // all:unset;
+            background-color:$blue ;
+            color: $rose;
+            height: 75px;
+
+            border: 1px solid $blue;
+            // border-radius: 30px 0px 0px 0px;
+
+           
+
+           & p 
+           {
+
+            text-align: center;
+            font-size: 50px;
+            margin-top: 5px;
+            font-weight: $font-weight1;
+            cursor: pointer;
+            // padding-top: 10px;
+            // display: inline;
+            
+        //    align-items:stretch;
+           };
+           
+
+        }
+        &--logo_nav
+        {
+            display: flex;
+            background-color: $rose;
+            flex-direction: row;
+            
+            justify-items: auto;
+            justify-content: space-between;
+            border: 1px solid $rose;
+            cursor: pointer;
+            // border-radius: 0px 0px 30px 0px;
+
+            &--logo
+            {
+              
+                & img
+                {
+                    height: 100px;
+                    width: 100px;
+                    // border: 2px solid black;
+                    margin-left: 5px;
+                    margin-top: 3px;
+                }
+            }
+            &--nav
+            {
+                & ul
+                {  
+                    display: flex;
+                    flex-direction: row;
+                    align-content: stretch;
+                    list-style: none;
+                    font-weight: $font-weight2;
+
+                    color:$white;
+
+                   
+
+                    & li 
+                    {cursor: pointer;
+                        background-color:$black;
+                        & a 
+                        {
+                           
+                            all: unset;
+                            justify-content: space-around;
+                        }
+
+                    
+                    }
+                   
+                    #list1
+                    {
+                        margin-right:  30px;
+                        border: 2px solid $bleue-claire;
+                        padding:10px;
+                        border-radius: 20px 20px 20px 20px;
+                        &:hover
+                        {
+                            border :2px solid $blue;
+                            background-color: $bleue-claire;
+                           
+                        }
+
+                    }
+                    #list2
+                    {
+                        border: 2px solid $bleue-claire;
+                        padding:10px;
+                        border-radius: 20px 20px 20px 20px;
+
+                        &:hover
+                        {
+                            border :2px solid $blue;
+                            background-color: $bleue-claire;
+                           
+                        }
+                    }
+                }
+               
+            }
+        }
+     }
+
+    }  
+    
+
+// // ---------------------------------------
+// // --CHARGEMENT DU STYLE TABLETTE--
+// // ---------------------------------------
+     
+
+    
+    
+//  @media screen and (max-width: 992px)
+//     {
+      
+        
+//     }
+    
+    
+    // // ---------------------------------------
+    // // --CHARGEMENT DU STYLE MOBILE--
+    // // ---------------------------------------
+    
+// @media screen and (max-width :777px) 
+//     {
+//         //
+    
+    
+//     }
+    

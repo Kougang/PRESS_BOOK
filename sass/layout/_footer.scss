@@ -1,0 +1,102 @@
+
+
+
+
+// -------------------------------
+// --CHARGEMENT DU STYLE DESKTOP--
+// -------------------------------
+
+
+
+
+@media screen and (min-width: 500px) 
+{
+    footer
+    {
+        margin-top: 30px;
+        background-color: $blue;
+        color:$white;
+        padding-top: 20px;
+    }
+
+    .footer
+    {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: space-between;
+        align-content: stretch;
+
+        font-family: raleway;
+
+        a
+        {
+            all:unset;
+        }
+
+        .firstfooter
+        {
+            display: flex;
+            flex-direction: column;
+     margin-left: 2%;
+     cursor: pointer;
+        }
+    
+        .secondfooter
+        {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+    
+        }
+        .thirdfooter
+        {
+            display: flex;
+            flex-direction: column;
+            margin-right: 2%;
+            cursor: pointer;
+    
+        }
+    }
+
+    .eugenie
+    {
+        text-align:right;
+        margin-right: 2%;
+        cursor: pointer;
+    }
+    .copyRigth
+    {
+        text-align: center;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+ 
+
+}
+
+
+// // ---------------------------------------
+// // --CHARGEMENT DU STYLE TABLETTE--
+// // ---------------------------------------
+
+
+
+
+
+@media screen and (max-width: 992px){
+  
+    
+}
+
+
+// // ---------------------------------------
+// // --CHARGEMENT DU STYLE MOBILE--
+// // ---------------------------------------
+
+@media screen and (max-width :777px)  {
+    //
+
+
+}
+
