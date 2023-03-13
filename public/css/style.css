@@ -1,4 +1,76 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 777px) {
+  @font-face {
+    font-family: "Raleway";
+    src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
+  }
+  .header {
+    font-family: raleway;
+  }
+  .header--titre {
+    background-color: rgb(13, 13, 111);
+    color: rgb(158, 63, 107);
+    height: 75px;
+    border: 1px solid rgb(13, 13, 111);
+  }
+  .header--titre p {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .header--logo_nav {
+    display: flex;
+    background-color: rgb(158, 63, 107);
+    flex-direction: row;
+    justify-items: auto;
+    justify-content: space-between;
+    border: 1px solid rgb(158, 63, 107);
+    cursor: pointer;
+  }
+  .header--logo_nav--logo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  .header--logo_nav--nav ul {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    list-style: none;
+    font-weight: bolder;
+    color: #DEEBFF;
+  }
+  .header--logo_nav--nav ul li {
+    cursor: pointer;
+    background-color: black;
+  }
+  .header--logo_nav--nav ul li a {
+    all: unset;
+    justify-content: space-around;
+  }
+  .header--logo_nav--nav ul #list1 {
+    margin-right: 30px;
+    border: 2px solid #0065FC;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .header--logo_nav--nav ul #list1:hover {
+    border: 2px solid rgb(13, 13, 111);
+    background-color: #0065FC;
+  }
+  .header--logo_nav--nav ul #list2 {
+    border: 2px solid #0065FC;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  .header--logo_nav--nav ul #list2:hover {
+    border: 2px solid rgb(13, 13, 111);
+    background-color: #0065FC;
+  }
+}
+@media screen and (max-width: 777px) {
   @font-face {
     font-family: "Raleway";
     src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
@@ -458,11 +530,15 @@ footer {
   .eugenie {
     text-align: right;
     margin-right: 2%;
+    font-family: raleway;
+    font-size: 18px;
     cursor: pointer;
   }
   .copyRigth {
     text-align: center;
     padding-bottom: 20px;
+    font-family: raleway;
+    font-size: 18px;
     cursor: pointer;
   }
 }
@@ -475,6 +551,7 @@ footer {
     margin-left: -20px;
     margin-right: -20px;
     margin-bottom: -10px;
+    font-size: 20px;
   }
   .footer {
     display: flex;
@@ -512,12 +589,16 @@ footer {
   .eugenie {
     text-align: center;
     padding-top: 20px;
+    font-family: raleway;
+    font-size: 18px;
     padding-bottom: 10px;
     cursor: pointer;
   }
   .copyRigth {
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
+    font-family: raleway;
+    font-size: 20px;
     cursor: pointer;
   }
 }
