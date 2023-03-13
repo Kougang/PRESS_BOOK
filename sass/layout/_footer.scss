@@ -17,6 +17,7 @@
         background-color: $blue;
         color:$white;
         padding-top: 20px;
+        width: auto;
     }
 
     .footer
@@ -108,13 +109,14 @@
     
     footer
     {
+        // all: unset;
         margin-top: 30px;
         background-color: $blue;
         color:$white;
         padding-top: 20px;
 
-        margin-left: -20px;
-        margin-right: -20px;
+        margin-left: -17px;
+        margin-right: -17px;
         margin-bottom: -10px;
 
         font-size: 20px;
