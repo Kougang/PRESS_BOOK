@@ -3,6 +3,10 @@
     font-family: "Raleway";
     src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
   }
+  header {
+    margin-left: -8px;
+    margin-right: -8px;
+  }
   .header {
     font-family: raleway;
   }
@@ -73,6 +77,12 @@
   @font-face {
     font-family: "Raleway";
     src: url("../static/Raleway-Light.ttf") format("truetype"), url("..static/Raleway-SemiBold.ttf") format("truetype");
+  }
+  html body div header {
+    margin-left: unset;
+    margin-right: unset;
+    margin-left: -8px;
+    margin-right: -8px;
   }
   .header {
     font-family: raleway;
@@ -151,24 +161,15 @@ html {
   all: unset;
   margin-top: -8px;
   background-color: #F2F2F2;
+  border-color: 4px solid green;
   width: auto;
 }
-html #header--main {
-  margin-left: 2%;
-  margin-right: 2%;
-}
-html header {
-  margin-left: -35px;
-  margin-right: -35px;
+html main {
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
-footer {
-  margin-left: -35px;
-  margin-right: -35px;
-  margin-bottom: -10px;
-}
-
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 300px) {
   main {
     margin-top: 40px;
     font-family: raleway;
@@ -280,18 +281,7 @@ footer {
   .html {
     all: unset;
     background-color: rgb(214, 238, 248);
-    margin-top: -30px;
-    margin-left: 2%;
-    margin-right: 2%;
-  }
-  header {
-    margin-left: -10px;
-    margin-right: -10px;
-  }
-  footer {
-    margin-left: -35px;
-    margin-right: -35px;
-    margin-bottom: -10px;
+    margin-top: -8px;
   }
   .presentation {
     margin-top: 40px;
@@ -390,16 +380,20 @@ footer {
     all: unset;
     background-color: rgb(214, 238, 248);
     margin-top: -30px;
-    margin-left: 2%;
+  }
+  .html main {
     margin-right: 2%;
+    margin-left: 2%;
   }
   header {
-    margin-left: -10px;
-    margin-right: -10px;
+    margin-left: -8px;
+    margin-right: -8px;
   }
   footer {
-    margin-left: -35px;
-    margin-right: -35px;
+    margin-right: unset;
+    margin-left: unset;
+    margin-left: -8px;
+    margin-right: -8px;
     margin-bottom: -10px;
   }
   .presentation {
@@ -495,12 +489,15 @@ footer {
   }
 }
 @media screen and (min-width: 777px) {
-  footer {
+  body footer {
+    margin-left: unset;
+    margin-right: unset;
+    margin-left: -8px;
+    margin-right: -8px;
     margin-top: 30px;
     background-color: rgb(13, 13, 111);
     color: #DEEBFF;
     padding-top: 20px;
-    width: auto;
   }
   .footer {
     display: flex;
@@ -508,6 +505,8 @@ footer {
     justify-content: space-between;
     align-content: stretch;
     font-family: raleway;
+    padding-left: 2%;
+    padding-right: 2%;
   }
   .footer a {
     all: unset;
@@ -534,6 +533,7 @@ footer {
     margin-right: 2%;
     font-family: raleway;
     font-size: 18px;
+    padding-right: 2%;
     cursor: pointer;
   }
   .copyRigth {
@@ -550,8 +550,8 @@ footer {
     background-color: rgb(13, 13, 111);
     color: #DEEBFF;
     padding-top: 20px;
-    margin-left: -17px;
-    margin-right: -17px;
+    margin-left: -8px;
+    margin-right: -8px;
     margin-bottom: -10px;
     font-size: 20px;
   }

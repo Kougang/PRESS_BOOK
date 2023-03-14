@@ -11,13 +11,18 @@
 
 @media screen and (min-width: 777px) 
 {
-    footer
+   body footer
     {
+        margin-left: unset;
+        margin-right: unset;
+        margin-left: -8px;
+        margin-right: -8px;
+
         margin-top: 30px;
         background-color: $blue;
         color:$white;
         padding-top: 20px;
-        width: auto;
+        // width: auto;
     }
 
     .footer
@@ -29,6 +34,8 @@
         align-content: stretch;
 
         font-family: raleway;
+        padding-left: 2%;
+        padding-right: 2%;
 
         a
         {
@@ -67,6 +74,8 @@
 
         font-family: raleway;
         font-size: 18px;
+
+        padding-right: 2%;
 
         cursor: pointer;
     }
@@ -115,8 +124,8 @@
         color:$white;
         padding-top: 20px;
 
-        margin-left: -17px;
-        margin-right: -17px;
+        margin-left: -8px;
+        margin-right: -8px;
         margin-bottom: -10px;
 
         font-size: 20px;
