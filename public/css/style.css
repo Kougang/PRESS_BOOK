@@ -169,7 +169,7 @@ html main {
   padding-right: 2%;
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 50px) {
   main {
     margin-top: 40px;
     font-family: raleway;
